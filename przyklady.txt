@@ -1,0 +1,132 @@
+"C:\Users\AKAKI\Desktop\Jestê Programerê\HelloWorld\venv\Scripts\python.exe" "C:\Program Files\JetBrains\PyCharm Community Edition 2020.1\plugins\python-ce\helpers\pydev\pydevconsole.py" --mode=client --port=55437
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['C:\\Users\\AKAKI\\Desktop\\Jestê Programerê\\HelloWorld', 'C:/Users/AKAKI/Desktop/Jestê Programerê/HelloWorld'])
+PyDev console: starting.
+Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 23:03:10) [MSC v.1916 64 bit (AMD64)] on win32
+helloworld.py
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'helloworld' is not defined
+1+1
+2
+var("Kasia")
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'var' is not defined
+imie=Kasia
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'Kasia' is not defined
+imie = "Kasia"
+print("Hello "and imie)
+Kasia
+print("Hello" and " "and imie)
+Kasia
+print("Hello "+imie)
+Hello Kasia
+def greet(name)
+...     return print("Hello"+name)
+... end
+  File "<input>", line 1
+    def greet(name)
+                  ^
+SyntaxError: invalid syntax
+def greet(name):
+...     return print("Hello"+name)
+... end
+Traceback (most recent call last):
+  File "<input>", line 3, in <module>
+NameError: name 'end' is not defined
+end
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'end' is not defined
+helloworld.py
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'helloworld' is not defined
+def greet(name): print("Hello"+name)
+... end
+Traceback (most recent call last):
+  File "<input>", line 2, in <module>
+NameError: name 'end' is not defined
+def greet(name): """ This function greets to the person passed in as a parameter """ print("Hello, " + name + ". Good morning!")
+  File "<input>", line 1
+    def greet(name): """ This function greets to the person passed in as a parameter """ print("Hello, " + name + ". Good morning!")
+                                                                                         ^
+SyntaxError: invalid syntax
+def greet(name):""" This function greets to the person passed in as a parameter """ print("Hello, " + name + ". Good morning!")
+  File "<input>", line 1
+    def greet(name):""" This function greets to the person passed in as a parameter """ print("Hello, " + name + ". Good morning!")
+                                                                                        ^
+SyntaxError: invalid syntax
+def greet(name):print("Hello, " + name + ". Good morning!")
+... greet Kasia
+  File "<input>", line 2
+    greet Kasia
+          ^
+SyntaxError: invalid syntax
+def greet(name):
+...     print("Hello, " + name + ". Good morning!")
+... 
+greet("Kasia")
+Hello, Kasia. Good morning!
+def multiply(a,b):
+...     return a*b
+... 
+multiply(2,2)
+4
+multiply(2323232232323,333333)
+774409969696922559
+def dreczy(a,b):
+...     print(a + "dreczy" + b)
+...     
+dreczy("Hera","Freja")
+HeradreczyFreja
+def dreczy(a,b):
+... ...     print(a + " dreczy " + b)
+  File "<input>", line 2
+    ...     print(a + " dreczy " + b)
+    ^
+IndentationError: expected an indented block
+def dreczy(a,b):
+... ...     print(a + "_dreczy_" + b)
+  File "<input>", line 2
+    ...     print(a + "_dreczy_" + b)
+    ^
+IndentationError: expected an indented block
+def dreczy(a,b):
+... print(a + "dreczy" + b)
+  File "<input>", line 2
+    print(a + "dreczy" + b)
+    ^
+IndentationError: expected an indented block
+def dreczy(a,b):print(a + "dreczy" + b)
+... 
+dreczy("Kasia", "Marcina")
+KasiadreczyMarcina
+def dreczy(a,b):print(a + " torments " + b)
+... 
+dreczy("Kasia", "Marcin")
+Kasia torments Marcin
+dreczy("Hera","Freja")
+Hera torments Freja
+dreczy("Kasia", "Marcin")
+Kasia torments Marcin
+dreczy("Hera","Freja")
+Hera torments Freja
+def kocha (a,b):
+...     print(a + "luvs" + b)
+...     
+kocha("Marcin","Kasie")
+MarcinluvsKasie
+def kocha (a,b):
+...     print(a + " luvs " + b)
+...     
+kocha("Marcin","Kasia")
+Marcin luvs Kasia
+def substract(a,b):
+...     print(a-b)
+...     
+substract(4,3)
+1
