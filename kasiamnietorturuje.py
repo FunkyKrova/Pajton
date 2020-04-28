@@ -3,3 +3,6 @@ def greet(name):
 
 def i_ate(food):
     print("I ate too much " + food)
+
+def multiply(a,b):
+    return a*b
