@@ -28,3 +28,17 @@ def dont_eat(list):
 def do_eat(a, list):
     ammount = str(a)
     for x in list: print("Do eat " + ammount + " " + x)
+    
+def razy_x(my_numbers,x):
+    my_numbers = [i * x for i in my_numbers]
+    return my_numbers
+
+#razy_x([2,2,4],2)
+
+#def razy_x(list,a):
+#    output=[]
+#    for x in list:
+#        output.append(x * a)
+#    return output
+
+#razy_x([2,2,4],2)
