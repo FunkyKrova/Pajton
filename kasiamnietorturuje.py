@@ -28,7 +28,7 @@ def dont_eat(list):
 def do_eat(a, list):
     ammount = str(a)
     for x in list: print("Do eat " + ammount + " " + x)
-    
+
 def razy_x(my_numbers,x):
     my_numbers = [i * x for i in my_numbers]
     return my_numbers
@@ -42,3 +42,12 @@ def razy_x(my_numbers,x):
 #    return output
 
 #razy_x([2,2,4],2)
+
+def dark(list):
+    for x in list:
+        if x == "Black ":
+            print("Can't see")
+        else:
+            print(x + " cat!")
+
+#dark(["Red","White","Black"])
